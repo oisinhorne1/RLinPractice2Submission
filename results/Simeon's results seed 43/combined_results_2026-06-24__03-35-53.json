@@ -1,0 +1,30 @@
+{
+  "dqn": {
+    "train_total_successes": 2090,
+    "train_total_episodes": 2154,
+    "train_success_rate": 0.9702878365831012,
+    "eval_total_reward": 0.6166666666666641,
+    "eval_steps": 94.76666666666667,
+    "eval_success_rate": 0.9666666666666667,
+    "eval_spl": 0.7868332228888401,
+    "eval_avg_collisions": 0.0,
+    "short_train_eval_spl": 0.0019395687071304432,
+    "mid_train_eval_spl": 0.015131215488291494,
+    "auc": 41048.7395639842,
+    "agent": "DQN"
+  },
+  "ppo": {
+    "train_total_successes": 3,
+    "train_total_episodes": 151,
+    "train_success_rate": 0.019867549668874173,
+    "eval_total_reward": -2.970266666666541,
+    "eval_steps": 1949.3,
+    "eval_success_rate": 0.06666666666666667,
+    "eval_spl": 0.0012420397011802832,
+    "eval_avg_collisions": 0.9333333333333333,
+    "short_train_eval_spl": 0.0,
+    "mid_train_eval_spl": 0.0,
+    "agent": "PPO",
+    "auc": 62.10198505901416
+  }
+}
